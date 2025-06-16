@@ -4,7 +4,7 @@ from google import genai
 import time
 
 # Create your views here.
-client=genai.Client(api_key="AIzaSyAB3lmXMFC-VQ6gXGdAzplWjzPQAj_ujwI")
+client=genai.Client(api_key="YOUR_API_KEY_HERE")
 chat=client.chats.create(model="gemini-2.0-flash")
 
 def index(request):
