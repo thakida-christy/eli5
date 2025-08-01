@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'eli5.wsgi.application'
+WSGI_APPLICATION = 'eli5.wsgi.app'
 
 
 # Database
